@@ -7,8 +7,8 @@ export default class ChatGPT {
 		this.top_p = 0;
 		this.frequency_penalty = 0;
 		this.presence_penalty = 0;
-		// this.apiKey = process.env.REACT_APP_APIKEY;
-		this.apiKey = `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`;
+		this.apiKey = process.env.REACT_APP_APIKEY;
+		// this.apiKey = ``;
 	}
 
 	async getCompletion(prompt) {
